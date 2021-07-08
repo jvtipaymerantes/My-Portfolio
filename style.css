@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero{
+    background-image: url(./img/first.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 2.4rem;
+    position: relative;
+    color: white;
+}
+
+/* Skills */
+#skills{}
+
+#skills .skills{
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#skills .title{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: .1rem;
+}
+
+#skills .skills-top .pa{
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: .2rem;
+}
+
+#skills .skills-mid{
+    align-items: center;
+    justify-content: center;
+}
+
+#skills .skills-item{
+    flex-basis: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    background-color: white;
+    border-color: rgb(201, 76, 76);
+    margin: 10px 8%;
+}
+
+#skills .lang{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* background-color: burlywood;*/
+    margin: 1%;
+}
+
+.icon{
+    width: 34%;
+    height: 34%;
+}
